@@ -1,0 +1,112 @@
+.visibility{
+    opacity: 0;
+    transform: translateY(-5px);
+    pointer-events: none;
+    transition: opacity 330ms ease, transform 240ms ease;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.visibility.visible{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.Login{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    
+    background: #fff;
+    padding-bottom: 30px;
+    width: 500px;
+    border: 1px, solid, black;
+    border-radius: 5px;
+}
+.naglowek{
+    margin: auto;
+}
+.nazwa{
+     display: flex;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5px;
+    border-radius: 6px;
+   margin-bottom: 0;
+}
+.haslo{
+    display: flex;
+    
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.email{
+     display: flex;
+    
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.submit{
+    margin: auto;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    color: #0a0a0a;
+    background:#f3f3f3;
+    border: 1px,solid,black;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background-color: #CCCCCC;
+    color: #000000;
+}
+.przyciski{
+    margin: auto;
+    gap: 10px;
+    display: flex;
+    
+}
+.zatwierdz{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    color: #0a0a0a;
+    background:#f3f3f3;
+    border: 1px,solid,black;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.error{
+    margin: auto;
+    display: flex;
+    font-size: 15px;
+    color: red;
+   
+    
+
+}

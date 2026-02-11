@@ -1,0 +1,144 @@
+
+
+.kontener {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    margin-top: 200px;
+    background: #fff;
+    padding-bottom: 30px;
+    width: 500px;
+    height: 350px;
+    border: 1px, solid, black;
+    border-radius: 5px;
+}
+
+.menu-login {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-radius: 15PX;
+
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 50%;
+}
+
+.tekst-normalny {
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    width: fit-content;
+    height: 80px;
+
+    border-radius: 6px;
+    background-color: aqua;
+
+
+}
+
+.tekst-szyfr {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: 80px;
+    border-radius: 6px;
+    background-color: beige;
+    margin-top: 10px;
+
+}
+
+.input-normal {
+    border-radius: 5px;
+}
+
+.zatwierdz {
+    margin: auto;
+}
+
+.zatwierdzanie-danych {
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.input-szyfr {
+    margin-top: 75px;
+    border-radius: 5px;
+
+}
+.przycisk-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    color: #0a0a0a;
+    background:#f3f3f3;
+    border: 1px,solid,black;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.przycisk-login:hover{
+   transition: 350ms ease-in-out;
+   
+   width: 60px;
+   background:#dfbfbf;
+   
+   color:white;
+}
+.przycisk-zatwierdz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    color: #0a0a0a;
+    background:#f3f3f3;
+    border: 1px,solid,black;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.przycisk-zatwierdz:hover{
+   transition: 350ms ease-in-out;
+   background:#dfbfbf;
+   
+   color:white;
+}
+.przycisk-wczytaj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    color: #0a0a0a;
+    background:#f3f3f3;
+    border: 1px,solid,black;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.przycisk-wczytaj:hover{
+   transition: 350ms ease-in-out;
+   background:#dfbfbf;
+   color:white;
+}
+
